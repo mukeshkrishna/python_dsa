@@ -1,6 +1,6 @@
 def monotonic_array(array):
     n = len(array)
-    if n == 0:
+    if n == 0 or n == 1:
         return True
     first = array[0]
     last = array[n-1]
